@@ -1,0 +1,21 @@
+{
+  "name": "deepgram-voice-agent-example",
+  "version": "0.0.1",
+  "description": "sample jambonz application that uses Deepgram Voice Agent",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client-ws": "^0.1.66",
+    "axios": "^1.7.9",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "eslint-plugin-promise": "^7.2.1"
+  }
+}
