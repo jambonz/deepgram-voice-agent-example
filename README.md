@@ -8,6 +8,6 @@ Based on the options that you have chosen, this application exposes the followin
 
 
 
-### /openai-s2s
-An example application that connects to the OpenAI Realtime API and implements a Voice-AI conversation.  The example shows how to configure the session parameters and gives an example of how to provide function calls, or tools, to the OpenAI assistant.  This example requires an OpenAI API key with permissions for the Real-time API, the key must be provided via the `OPENAI_API_KEY` environment variable.
+### /voice-agent
+An example application that connects to the Deepgram Voice Agent and implements a Voice-AI conversation.  This example requires an Deepgram API key which must be provided via the `DEEPGRAM_API_KEY` environment variable.
 
